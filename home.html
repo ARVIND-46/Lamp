@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div id="proverb">
+        <h2>If you can't yet do great things, do small things in a great way</h2>
+    </div>
+    <div class="Header">
+        <h3>Things to perpare</h3>
+    </div>
+    <div id="sub" class="box" onclick="navigateToSubjects()"><h1>Subjects</h1></div>
+    <div id="interview" class="box" onclick="navigateToInterview()"><h1>Interview</h1></div>
+    <div id="Practice" class="box" onclick="navigateToPratice()"><h1>Pratice</h1></div>
+    
+
+   
+</body>
+<script>
+    function navigateToSubjects() {
+        window.location.href = './subjects.html'; 
+    }
+    function navigateToInterview() {
+        window.location.href = './interview.html'; 
+    }
+    function navigateToPratice() {
+        window.location.href = './practice.html'; 
+    }
+</script>
+</html>
