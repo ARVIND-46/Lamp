@@ -13,3 +13,13 @@ width: 50px;
     margin: 10px;
     background-color: aqua;
 }
+.container{
+    display: flex;
+    justify-content: left;
+    gap: 20px; 
+}
+#homeHeader{
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid ;
+}
