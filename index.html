@@ -3,37 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lamp</title>
+    <title>LAMP</title>
 
     <style>
-         body{
-            background-color:black;
+        body {
+            background-color: black;
             overflow: hidden;
             margin: 0;
-         }
-         #container{
+            background-image: url(./images/wlamp.png);
+            background-repeat: no-repeat;
+            background-size: 100% 25%;
+            height: 100vh;
+            width: 100%;
             display: flex;
-            flex-direction: column;
-            justify-content: center; 
-            align-items: center;    
-            height: 100vh; 
-         }
-         h1{
-            color: aliceblue;
-            size: 100px;
-         }
+            justify-content: center;
+            align-items: center;
+            background-position: center top;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
 
+        #container {
+            text-align: center;
+            color: white;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);  
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+        }
+
+       
+        h1 {
+            font-size: 4em;
+            color: aliceblue;
+            margin: 0;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+            transition: color 0.3s ease;
+        }
+
+        h1:hover {
+            color: #ff5722;  
+        }
+
+       
+        p {
+            font-size: 1.5em;
+            color: #d3d3d3;
+            margin-top: 20px;
+            transition: color 0.3s ease;
+        }
+
+        p:hover {
+            color: #ff5722;  
+        }
+
+       
+        a {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 30px;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #e64a19;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+        }
     </style>
 </head>
 <body>
+
     <div id="container">
-        <h1>LAMP</h1>
-        <img src="./images/Lampimg.png" alt="" style="align-items: center;">
-        <a href="./home.html" class="button" >Get Started</a>
-        
+        <h1><i>LAMP</i></h1>
+        <p>The Last Minute Preparation</p>
+        <a href="./home.html">Get Started</a>
     </div>
-   
-    
-    
+
 </body>
 </html>
