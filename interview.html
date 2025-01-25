@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InterviewLamp</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>interview</h1>
+   <div class="container">
+    <div class="box"onclick="navigateToResume()">
+        <h1>Resume Model</h1>
+    </div>
+    <div class="box"onclick="navigateToAptitude()" >
+        <h1>Aptitude</h1>
+    </div>
+    <div class="box"onclick=" navigateToTecPrep()">
+        <h1>Technical Preparation</h1>
+    </div>
+    <div class="box" onclick="navigateToCommunication()">
+        <h1>Communication</h1>
+    </div>
+
+   </div>
 </body>
+<script>
+    function navigateToResume() {
+        window.location.href = './resume.html'; 
+    }
+    function navigateToAptitude() {
+        window.location.href = './aptitude.html'; 
+    }
+    function navigateToTecPrep() {
+        window.location.href = './tecPrep.html'; 
+    }
+    function navigateToCommunication() {
+        window.location.href = './communication.html'; 
+    }
+</script>
 </html>

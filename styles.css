@@ -1,25 +1,31 @@
-#proverb{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
+
 .box,img{
 width: 50px;
 }
 .box{
     width: 200px;
     height: 200px;
-    border: 2px solid black;
+    border: 2px double rgb(30, 11, 2);
     padding: 20px;
     margin: 10px;
-    background-color: aqua;
+    background-color: rgb(161, 157, 164);
+    margin-top: 25%;
+    border-radius:15px;
+    box-shadow: 8px;
 }
 .container{
     display: flex;
-    justify-content: left;
+    justify-content:left;
     gap: 20px; 
+   
 }
 #homeHeader{
     background-color: black;
     color: aliceblue;
     border: 2px solid ;
+}
+body{
+    background-image: url(./images/bgimg2.png);
+    margin: 0;
+    background-size: cover;
 }
